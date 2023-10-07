@@ -4,7 +4,7 @@ import subprocess
 import shlex
 mean = [0, 0]
 cov = [[1, 0], [0, 1]]  # diagonal covariance
-A = 3
+A = 10
 A1=10**(0.1*A);
 simlen = int(100)
 n12, n2 = np.random.multivariate_normal(mean, cov, simlen).T

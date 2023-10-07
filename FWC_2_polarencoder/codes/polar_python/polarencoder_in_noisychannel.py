@@ -92,7 +92,7 @@ for snr in range(1, 10):
 
     for i in range(K):
         #ele=int(input('Enter data bits of size K : '))
-        ele=random2.randint(0, 1)
+        ele=1#random2.randint(0, 1)
         msg.append(ele)
     u=[]
     print(msg);
